@@ -43,11 +43,11 @@
                     <div id="form-part-3">
                         <div class="form-inputs">
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" id="pwd" name="pwd" required>
+                            <input type="password" id="pwd" name="pwd" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                         </div> 
                         <div class="form-inputs">
                             <label for="cpwd">CONFIRM PASSWORD</label>
-                            <input type="password" id="cpwd" name="cpwd" required>
+                            <input type="password" id="cpwd" name="cpwd" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
                         </div>         
                     </div>
                 </div>
